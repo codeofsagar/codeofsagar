@@ -8,15 +8,20 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=codeofsagar&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=radical&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codeofsagar&theme=radical&hide_border=false" height="150" alt="streak graph" />
+</div>
+
 ---
 
-<img align="right" height="160" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding gif" />
+<img align="right" height="160" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
 
 ### 🚀 About Me  
 - 🌐 Portfolio: [codeofsagar.in](https://codeofsagar.in)  
 - 🛠️ Skilled in **Next.js, React, GSAP, Framer Motion, WebGL**  
 - 🎨 Passionate about creating **smooth frontend animations & modern UIs**  
 - 🌱 Exploring advanced **3D web experiences**  
+- 🎂 Fun fact: I’m only **22**, but already obsessed with building futuristic web apps 🚀  
 
 ---
 
@@ -58,7 +63,7 @@
 
 ---
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/codeofsagar/codeofsagar/output/snake.svg" alt="Snake animation" />
+### 🐍 Contribution Snake
+⚡ To enable this, you’ll need to set up GitHub Actions in your own repo.  
+Follow this guide 👉 [GitHub Snake Setup](https://github.com/Platane/snk)  
 
