@@ -1,0 +1,66 @@
+name: Generate profile cards
+
+# Builds every self-hosted image the README embeds (stats, top languages,
+# contribution snake) and publishes them to the `output` branch, so the README
+# never depends on rate-limited public Vercel instances.
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # once a day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Stats card
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2E88&icon_color=00E5FF&text_color=C9D1D9&border_radius=12
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&card_width=340&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2E88&text_color=C9D1D9&border_radius=12
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF2E88
+
+      - name: Check outputs
+        run: |
+          ls -la dist
+          for f in stats.svg top-langs.svg github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg; do
+            test -s "dist/$f"
+          done
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

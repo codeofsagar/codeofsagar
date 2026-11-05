@@ -13,7 +13,7 @@
 <div align="center">
   <a href="https://codeofsagar.in"><img src="https://img.shields.io/badge/Portfolio-codeofsagar.in-FF2E88?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="portfolio" /></a>
   <a href="https://www.linkedin.com/in/sagar-kumar-ghosh-1b6167346"><img src="https://img.shields.io/badge/LinkedIn-Connect-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="linkedin" /></a>
-  <a href="mailto:REPLACE_ME@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-A855F7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="email" /></a>
+  <a href="mailto:hello@codeofsagar.in"><img src="https://img.shields.io/badge/Email-hello%40codeofsagar.in-A855F7?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0D1117" alt="email" /></a>
   <img src="https://komarev.com/ghpvc/?username=codeofsagar&style=for-the-badge&color=FF2E88&label=PROFILE+VIEWS&labelColor=0D1117" alt="views" />
 </div>
 
@@ -82,20 +82,12 @@ const sagar = {
 <h3 align="center">📊 &nbsp;The Numbers</h3>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=codeofsagar&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2E88&icon_color=00E5FF&text_color=C9D1D9&border_radius=12" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=codeofsagar&layout=compact&langs_count=8&card_width=340&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2E88&text_color=C9D1D9&border_radius=12" alt="languages" />
+  <img height="165" src="https://raw.githubusercontent.com/codeofsagar/codeofsagar/output/stats.svg" alt="stats" />
+  <img height="165" src="https://raw.githubusercontent.com/codeofsagar/codeofsagar/output/top-langs.svg" alt="languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=codeofsagar&theme=radical&hide_border=true&background=0D1117&ring=FF2E88&fire=00E5FF&currStreakLabel=FF2E88&border_radius=12" alt="streak" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=codeofsagar&bg_color=0D1117&color=FF2E88&line=00E5FF&point=FFFFFF&area=true&area_color=A855F7&hide_border=true&custom_title=Contribution%20Rhythm" alt="activity graph" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=codeofsagar&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
@@ -146,19 +138,6 @@ const sagar = {
 
 </details>
 
-<details>
-<summary><b>📈 &nbsp;More stats (for the data nerds)</b></summary>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=codeofsagar&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2E88&text_color=C9D1D9&border_radius=12&layout=compact" alt="wakatime" />
-</div>
-
-<sub>Requires a <a href="https://wakatime.com">WakaTime</a> account linked to your GitHub — remove this block if you don't use it.</sub>
-
-</details>
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 <!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
@@ -174,7 +153,7 @@ const sagar = {
   &nbsp;
   <a href="https://www.linkedin.com/in/sagar-kumar-ghosh-1b6167346"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="38" alt="linkedin" /></a>
   &nbsp;
-  <a href="mailto:REPLACE_ME@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="38" alt="gmail" /></a>
+  <a href="mailto:hello@codeofsagar.in"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=maildotru&logoColor=white" height="38" alt="email" /></a>
   &nbsp;
   <a href="https://github.com/codeofsagar"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="github" /></a>
 </div>
@@ -182,7 +161,7 @@ const sagar = {
 <br />
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="quote" />
+  <i>"Make it work, make it right, make it fast." — Kent Beck</i>
 </div>
 
 <br />
